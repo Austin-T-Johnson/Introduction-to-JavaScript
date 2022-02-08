@@ -41,10 +41,10 @@ Do the following:
 let firstVariable = 1;
 let secondVariable = 2;
 
+if(firstVariable != secondVariable) {
+  firstVariable = secondVariable;
+}
 console.log(firstVariable);
-firstVariable = 2;
-console.log(firstVariable);
-
 
 /*
 Task 1c - Convert Strings to Numbers
