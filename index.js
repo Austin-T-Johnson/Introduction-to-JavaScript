@@ -291,11 +291,19 @@ HINT - try looking up the .includes() method
 */
 
 
-function vowelCounter(/*add your code here*/) {
-  /*add your code here*/
+function vowelCounter(string) {
+  let count = 0;
+  let vowels = ['a','e','i','o','u','y'];
+  for (let i in string) {
+    if (vowels.includes(string[i].toLowerCase())) {
+      count++
+    }
+    
+  }
+  return count;
 }
 
-
+console.log(vowelCounter('austin'));
 
 /*🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑*/
 function foo(){
