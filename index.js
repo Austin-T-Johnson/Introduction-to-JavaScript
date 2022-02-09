@@ -204,10 +204,10 @@ Using the miles function below do the following:
 */
 
 
-function miles(km,mile){
-  if (km !== mile) {
-    return km * 0.621371;
-  }
+function miles(km){
+  
+return km * 0.621371;
+  
 }
 
 
@@ -221,10 +221,10 @@ Using the feet function below do the following:
 3. Return number of feet
 */
 
-function feet(cm,feet){
-  if (cm !== feet) {
-    return cm / 30.48;
-  }
+function feet(cm){
+  
+  return cm / 30.48;
+
 }
 
 
@@ -239,9 +239,12 @@ Using the annoyingSong function below do the following:
     "{number you gave as an argument} bottles of soda on the wall, {number you gave as an argument} bottles of soda, take one down pass it around {number you gave as an argument minus 1} bottles of soda on the wall"
 */
 
-function annoyingSong(/*add your code here*/){
-      /*add your code here*/
-}
+function annoyingSong(bottles){
+   
+    return `${bottles} bottles of soda on the wall, ${bottles} bottles of soda, take one down pass it around ${bottles - 1} bottles of soda on the wall`
+ 
+  }
+
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
